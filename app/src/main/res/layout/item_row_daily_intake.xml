@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:id="@+id/tv_item_people"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/not_known"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/gl_daily_intake"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_daily_intake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="270dp" />
+
+    <TextView
+        android:id="@+id/tv_item_intake_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/not_known"
+        android:gravity="end"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_daily_intake"
+        app:layout_constraintEnd_toStartOf="@id/gl_daily_intake_2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_daily_intake_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="360dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

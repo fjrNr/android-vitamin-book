@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Vitamin Book</string>
+    <string name="vitamin_name">Nama vitamin</string>
+    <string name="vitamin_synonym">Sinonim</string>
+    <string name="health_law_url">https://peraturan.bpk.go.id/Download/129886/Permenkes%20Nomor%2028%20Tahun%202019.pdf</string>
+    <string name="synonym">Sinonim</string>
+    <string name="not_known">Tidak diketahui</string>
+    <string name="usage">Kegunaan</string>
+    <string name="deficiency">Akibat Kekurangan Vitamin</string>
+    <string name="daily_intake">Angka Kecukupan Gizi (AKG)</string>
+    <string name="health_law">Menurut Permenkes No. 28 Tahun 2019 hal. 9\-11</string>
+    <string name="food_source">Sumber Makanan</string>
+    <string name="reference">Referensi</string>
+    <string name="references_value">http:/val</string>
+    <string name="daily_intake_value">%d mg</string>
+    <string name="about_me">Tentang saya</string>
+    <string name="share">Bagikan</string>
+    <string name="profile_name">Fajar Nurahman</string>
+    <string name="profile_email">Email: fajar91096@gmail.com</string>
+    <string name="reference_link">Link referensi</string>
+</resources>

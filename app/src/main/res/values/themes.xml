@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VitaminBook" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/orange</item>
+        <item name="android:navigationBarColor">@color/orange</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/orange</item>
+        <item name="android:foreground">@drawable/ic_launcher_splash_screen</item>
+        <item name="android:navigationBarColor">@color/orange</item>
+        <item name="android:duration">1000</item>
+    </style>
+
+    <style name="Theme.VitaminBook" parent="Base.Theme.VitaminBook" />
+</resources>
