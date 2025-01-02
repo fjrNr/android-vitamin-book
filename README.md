@@ -1,5 +1,5 @@
 # Vitamin Book
-This repository is submitted to passed the beginner Android apps development class from Dicoding Academy. The native app tells user about how usage of vitamins in order to maintain body health. 
+This repository is submitted to passed [Android apps development class for beginners](https://www.dicoding.com/academies/51-belajar-membuat-aplikasi-android-untuk-pemula) from Dicoding Academy. The native app tells user about how usage of vitamins in order to maintain body health. 
 Libraries are used in the app, such as:
 * [ConstraintLayout](https://github.com/androidx/constraintlayout) v2.2.0 for layout development
 * [Glide](https://gitHub.com/bumptech/glide) v4.16.0 for image retrieval from the internet
